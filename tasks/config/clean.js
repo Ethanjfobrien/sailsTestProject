@@ -16,6 +16,8 @@ module.exports = function(grunt) {
     dev: ['.tmp/public/**'],
     build: ['www']
   });
+  
+  grunt.option('force', true);
 
   grunt.loadNpmTasks('grunt-contrib-clean');
 };
